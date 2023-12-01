@@ -39,7 +39,7 @@
                     <input type="email" class="form-control" name="email" required class="border-gray-800 w-52">
                 </div>
                 <div class="form-group py-1">
-                    <label class="pr-3 text-slate-white">Phone Number</label>
+                    <label class="pr-3">Phone Number</label>
                     <input type="number" class="form-control" name="number" required class="border-gray-800 w-52">
                 </div>
                 <div class="py-1">   
