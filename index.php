@@ -10,7 +10,7 @@
 
         $result=mysqli_query($con,$sql);
         if($result){
-            echo "Data saved successfully";
+            echo header('location:display.php');
         }else{
             die(mysqli_error($con));
         }
