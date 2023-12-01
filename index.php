@@ -32,15 +32,15 @@
             <form method="post">
                 <div class="form-group py-1">
                     <label class="pr-3">Name</label>
-                    <input type="text" class="form-control" name="name" placeholder="Enter your name" required class="border-gray-800 w-52">
+                    <input type="text" class="form-control" name="name" required class="border-gray-800 w-52">
                 </div>
                 <div class="form-group py-1">
                     <label class="pr-3">Email</label>
-                    <input type="email" class="form-control" name="email" placeholder="Enter your email" required class="border-gray-800 w-52">
+                    <input type="email" class="form-control" name="email" required class="border-gray-800 w-52">
                 </div>
                 <div class="form-group py-1">
                     <label class="pr-3 text-slate-white">Phone Number</label>
-                    <input type="number" class="form-control" name="number" placeholder="Enter your Phone number" required class="border-gray-800 w-52">
+                    <input type="number" class="form-control" name="number" required class="border-gray-800 w-52">
                 </div>
                 <div class="py-1">   
                     <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-1 w-20 rounded" name="submit">Submit</button>
