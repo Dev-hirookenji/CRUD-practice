@@ -14,7 +14,7 @@
         <button class="bg-blue-500 hover:bg-blue-700 active:bg-blue-300 text-white font-bold py-1 px-1 rounded"><a href="index.php">Add User</a></button>
     </div>
     <div class="flex justify-center">
-        <table class="border-separate px-8 w-[36rem]">
+        <table class="border-separate px-8 w-[45rem]">
             <thead class="border border-solid">
                 <tr>
                     <th class="border border-black">ID</th>
@@ -40,10 +40,15 @@
                         <td class="border border-black">'.$name.'</td>
                         <td class="border border-black">'.$email.'</td>
                         <td class="border border-black">'.$number.'</td>
+                        <td class="grid grid-cols-2">
+                            <button class="flex flex-wrap mx-2 px-5 bg-blue-500 hover:bg-blue-700 active:bg-blue-300 text-white font-bold py-1 px-1 rounded"><a href="update.php"></a>Update</button>
+                            <button class="flex flex-wrap mx-2 px-5 bg-red-500 hover:bg-red-700 active:bg-blue-300 text-white font-bold py-1 px-1 rounded"><a href="delete.php"></a>Delete</button>
+                        </td>
                         </tr>';
                     }
                 }
             ?>
+            
             </tbody>
         </table>
     </div>
