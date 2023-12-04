@@ -41,8 +41,10 @@
                         <td class="border border-black">'.$email.'</td>
                         <td class="border border-black">'.$number.'</td>
                         <td class="grid grid-cols-2">
-                            <button class="flex flex-wrap mx-2 px-5 bg-blue-500 hover:bg-blue-700 active:bg-blue-300 text-white font-bold py-1 px-1 rounded"><a href="update.php"></a>Update</button>
-                            <button class="flex flex-wrap mx-2 px-5 bg-red-500 hover:bg-red-700 active:bg-blue-300 text-white font-bold py-1 px-1 rounded"><a href="delete.php"></a>Delete</button>
+                            <button class="flex flex-wrap mx-2 px-5 bg-blue-500 hover:bg-blue-700 active:bg-blue-300 text-white font-bold py-1 px-1 rounded"><a href="update.php?
+                            updateid='.$id.'">Update</a></button>
+                            <button class="flex flex-wrap mx-2 px-5 bg-red-500 hover:bg-red-700 active:bg-blue-300 text-white font-bold py-1 px-1 rounded"><a href="delete.php?
+                            deleteid='.$id.'">Delete</a></button>
                         </td>
                         </tr>';
                     }
